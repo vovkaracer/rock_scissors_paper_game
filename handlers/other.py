@@ -7,5 +7,5 @@ other_router = Router()
 @other_router.message()
 async def process_other_answer(message: Message):
     await message.answer(
-        text=LEXICON_RU['other_answer']
+        text=LEXICON_RU['other_answers']
     )

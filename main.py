@@ -5,8 +5,8 @@ from aiogram import Bot, Dispatcher
 from config.config import Config, load_config
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
-from handlers import user_router
-from handlers import other_router
+from handlers.user import user_router
+from handlers.other import other_router
 
 logger = logging.getLogger(__name__)
 async def main():
